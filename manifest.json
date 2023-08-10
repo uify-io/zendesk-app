@@ -1,0 +1,41 @@
+{
+  "name": "Uify",
+  "author": {
+    "name": "Uify Technologies GmbH",
+    "email": "support@uify.io",
+    "url": "https://uify.io/"
+  },
+  "defaultLocale": "en",
+  "version": "2.0",
+  "private": false,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "autoHide": false,
+        "flexible": true,
+        "signed": false,
+        "url": "https://app.uify.io/app-embedded/{{setting.appId}}?width=100vw&padding=0&background=white",
+        "size": {
+          "height": "600px",
+          "width": "100%"
+        }
+      }
+    }
+  },
+  "parameters": [
+    {
+      "name": "appId",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "height",
+      "type": "text",
+      "default": "600px"
+    }
+  ],
+  "frameworkVersion": "2.0",
+  "singleInstall": false,
+  "termsConditionsURL": "https://uify.io/general-terms-and-conditions",
+  "marketingOnly": false
+}
